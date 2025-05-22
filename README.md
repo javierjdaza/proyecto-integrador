@@ -22,43 +22,44 @@
 
 Este proyecto aplica técnicas de reducción dimensional (UMAP y PCA) combinadas con **K-Means Clustering** para segmentar los proyectos de Concentrix según variables clave como:
 
-- `project_priority`
-- `avg_risk_exposure`
-- `total_headcount`
-- `num_tasks`
-- `duration`
+-   `project_priority`
+-   `avg_risk_exposure`
+-   `total_headcount`
+-   `num_tasks`
+-   `duration`
 
 ### 🔍 Metodología
 
-- **Reducción dimensional**:
-  - **UMAP**: preserva la estructura local, útil para identificar patrones complejos o no lineales.
-  - **PCA**: captura la varianza global, útil para visualizaciones lineales y explicabilidad.
-- **Clustering**:
-  - Se aplicó **K-Means** en el espacio reducido para detectar patrones naturales en los proyectos.
+-   **Reducción dimensional**:
+    -   **UMAP**: preserva la estructura local, útil para identificar patrones complejos o no lineales.
+    -   **PCA**: captura la varianza global, útil para visualizaciones lineales y explicabilidad.
+-   **Clustering**:
+    -   Se aplicó **K-Means** en el espacio reducido para detectar patrones naturales en los proyectos.
 
 ### 📌 Resultados principales
 
-| Enfoque | Cluster 0 | Cluster 1 |
-|--------|-----------|-----------|
-| **UMAP** | Proyectos complejos, con alta prioridad, riesgo elevado, duración extensa y mayor número de tareas. | Proyectos rutinarios, con riesgo muy bajo, menor duración y carga operativa. |
-| **PCA** | Proyectos grandes, con headcount alto, duración prolongada y exposición a riesgo elevada. | Proyectos operativos, simples, con baja exposición al riesgo y menor complejidad. |
+| Enfoque  | Cluster 0                                                                                           | Cluster 1                                                                         |
+| -------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **UMAP** | Proyectos complejos, con alta prioridad, riesgo elevado, duración extensa y mayor número de tareas. | Proyectos rutinarios, con riesgo muy bajo, menor duración y carga operativa.      |
+| **PCA**  | Proyectos grandes, con headcount alto, duración prolongada y exposición a riesgo elevada.           | Proyectos operativos, simples, con baja exposición al riesgo y menor complejidad. |
 
 > Ambos enfoques coinciden en distinguir dos perfiles bien diferenciados:
-> - **Cluster 0**: Proyectos estratégicos, complejos y de alto impacto.
-> - **Cluster 1**: Proyectos estándar, operativos y de bajo riesgo.
+>
+> -   **Cluster 0**: Proyectos estratégicos, complejos y de alto impacto.
+> -   **Cluster 1**: Proyectos estándar, operativos y de bajo riesgo.
 
 ### 📁 Archivos relevantes
 
-- [`kmeans_cluster_analysis_UMAP.md`](./UMAP.md) – Análisis detallado con UMAP
-- [`kmeans_cluster_analysis_PCA.md`](./PCA.md) – Análisis detallado con PCA
+-   [`kmeans_cluster_analysis_UMAP.md`](./docs/UMAP.md) – Análisis detallado con UMAP
+-   [`kmeans_cluster_analysis_PCA.md`](./docs.PCA.md) – Análisis detallado con PCA
 
 ---
 
 ## 👥 Autores
 
-- **Javier Daza**  
-- **María Sofía Uribe**  
-- **Pablo Andrés Jimeno**
+-   **Javier Daza**
+-   **María Sofía Uribe**
+-   **Pablo Andrés Jimeno**
 
 > Trabajo desarrollado en el marco de la Maestría en Ciencia de los Datos – Universidad EAFIT
 
