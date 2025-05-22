@@ -1,4 +1,4 @@
-# 🔬 Proyecto de Clustering de Proyectos – Concentrix
+# 🔬 Proyecto de Clustering de Proyectos
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.2-orange?logo=scikit-learn)](https://scikit-learn.org/)
@@ -7,6 +7,14 @@
 [![PCA](https://img.shields.io/badge/PCA-built--in-lightgrey?logo=python)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/status-active-success)]()
+
+---
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_EAFIT.svg/2560px-Logo_EAFIT.svg.png" alt="Universidad EAFIT" width="250"/>
+</p>
+
+<p align="center"><strong>Maestría en Ciencia de los Datos – Universidad EAFIT</strong></p>
 
 ---
 
@@ -41,8 +49,8 @@ Este proyecto aplica técnicas de reducción dimensional (UMAP y PCA) combinadas
 
 ### 📁 Archivos relevantes
 
-- [`kmeans_cluster_analysis_UMAP.md`](./kmeans_cluster_analysis_UMAP.md) – Análisis detallado con UMAP
-- [`kmeans_cluster_analysis_PCA.md`](./kmeans_cluster_analysis_PCA.md) – Análisis detallado con PCA
+- [`kmeans_cluster_analysis_UMAP.md`](./UMAP.md) – Análisis detallado con UMAP
+- [`kmeans_cluster_analysis_PCA.md`](./PCA.md) – Análisis detallado con PCA
 
 ---
 
@@ -50,5 +58,8 @@ Este proyecto aplica técnicas de reducción dimensional (UMAP y PCA) combinadas
 
 - **Javier Daza**  
 - **María Sofía Uribe**  
-- **Pablo Andrés Jimeno**  
+- **Pablo Andrés Jimeno**
 
+> Trabajo desarrollado en el marco de la Maestría en Ciencia de los Datos – Universidad EAFIT
+
+---
