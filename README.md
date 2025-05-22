@@ -1,4 +1,4 @@
-# 🔬 Proyecto de Clustering de Proyectos
+# 🔬 Proyecto Integrador
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.2-orange?logo=scikit-learn)](https://scikit-learn.org/)
@@ -18,7 +18,7 @@
 
 ---
 
-## 📊 Análisis de Clustering de Proyectos – Concentrix
+## 📊 Análisis de Clustering de Proyectos
 
 Este proyecto aplica técnicas de reducción dimensional (UMAP y PCA) combinadas con **K-Means Clustering** para segmentar los proyectos de Concentrix según variables clave como:
 
